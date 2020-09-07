@@ -3,27 +3,40 @@
     font-weight: 400;
 }
 
-.header-1 {
+.heading-1 {
     @extend %heading;
 }
 
-.header-2 {
+.heading-2 {
     @extend %heading;
+    font-size: 4rem;
+    font-style: italic;
 }
 
-.header-3 {
-    @extend %heading;
+.heading-2--light {
+    color: $color-grey-light-1;
 }
 
-.header-4 {
+.heading-2--dark {
+    color: $color-grey-dark-1;
+}
+
+.heading-3 {
+    @extend %heading;
+    font-size: 1.6rem;
+    color: $color-primary;
+    text-transform: uppercase;
+}
+
+.heading-4 {
     @extend %heading;
     font-size: 1.9rem;
 }
 
-.header-4--light {
+.heading-4--light {
     color: $color-grey-light-1;
 }
 
-.header-4--dark {
+.heading-4--dark {
     color: $color-grey-dark-1;
 }
